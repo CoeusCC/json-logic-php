@@ -95,7 +95,7 @@ class JsonLogic
             '%' => function ($a, $b) {
                 return $a % $b;
             },
-            'float%' => function ($a, $b) {
+            'f%' => function ($a, $b) {
                 return fmod($a, $b);
             },
             '!!' => function ($a) {
